@@ -39,7 +39,7 @@
             display-name = "Base";
             bindings = <
 &kp CAPSLOCK   &kp N1            &kp N2  &kp N3    &kp N4         &kp N5                                 &kp N6   &kp N7      &kp N8         &kp N9   &kp N0                     &kp CAPSLOCK
-&none          &kp Q             &kp W   &kp E     &kp R          &kp T                                  &kp Y    &kp U       &kp I          &kp O    &kp P                      &none
+&kp DEL        &kp Q             &kp W   &kp E     &kp R          &kp T                                  &kp Y    &kp U       &kp I          &kp O    &kp P                      &none
 &kp BACKSPACE  &mt LEFT_SHIFT A  &kp S   &kp D     &kp F          &kp G                                  &kp H    &kp J       &kp K          &kp L    &mt RIGHT_SHIFT SEMICOLON  &kp SQT
 &none          &mt LCTRL Z       &kp X   &kp C     &kp V          &kp B      &kp LBKT       &kp RBKT     &kp N    &kp M       &kp COMMA      &kp DOT  &mt LCTRL SLASH            &tog 5
                                          &kp LALT  &kp RIGHT_GUI  &lt 4 TAB  &lt 1 SPACE    &lt 2 ENTER  &kp DEL  &kp ESCAPE  &kp RIGHT_ALT
@@ -78,11 +78,11 @@
 
             display-name = "Raise";
             bindings = <
-&trans  &trans    &trans    &trans        &none      &none                     &trans  &trans    &trans    &trans  &trans     &trans
-&none   &kp N1    &kp N2    &kp N3        &kp N4     &kp N5                    &kp N6  &kp N7    &kp N8    &kp N9  &kp N0     &trans
-&none   &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &none                     &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
-&none   &none     &none     &none         &none      &none   &trans    &trans  &none   &none     &none     &none   &none      &none
-                            &trans        &trans     &trans  &trans    &trans  &trans  &trans    &trans
+&trans   &trans    &trans    &trans        &none      &none                       &trans    &trans    &trans    &trans  &trans     &trans
+&none    &kp N1    &kp N2    &kp N3        &kp N4     &kp N5                      &kp N6    &kp N7    &kp N8    &kp N9  &kp N0     &trans
+&kp END  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp HOME                    &kp HOME  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp END
+&none    &none     &none     &none         &none      &none     &trans    &trans  &none     &none     &none     &none   &none      &none
+                             &trans        &trans     &trans    &trans    &trans  &trans    &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
