@@ -38,6 +38,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        caps_word {
+            bindings = <&caps_word>;
+            key-positions = <31 28>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -136,12 +145,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        then_layer {
-            if-layers = <1 1>;
-            then-layer = <1>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
