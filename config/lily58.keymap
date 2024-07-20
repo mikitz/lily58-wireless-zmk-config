@@ -85,21 +85,21 @@
 
         nav_layer {
             bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans                        &trans         &trans      &trans     &trans     &trans     &trans
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)                     &kp LC(Y)      &kp LC(V)   &kp LC(C)  &kp LC(X)  &kp LC(Z)  &trans
-&trans  &none      &trans     &trans     &trans     &kp CAPS                      &kp CAPS       &kp LEFT    &kp UP     &kp DOWN   &kp RIGHT  &trans
-&trans  &kp END    &kp PG_DN  &kp PG_UP  &kp HOME   &kp INSERT  &trans    &trans  &kp INSERT     &kp HOME    &kp PG_DN  &kp PG_UP  &kp END    &trans
-                              &trans     &trans     &trans      &trans    &trans  &kp BACKSPACE  &kp DELETE  &trans
+&trans     &trans          &trans          &trans        &trans           &trans                        &trans         &trans      &trans     &trans     &trans     &trans
+&trans     &kp LC(Z)       &kp LC(X)       &kp LC(C)     &kp LC(V)        &kp LC(Y)                     &kp LC(Y)      &kp LC(V)   &kp LC(C)  &kp LC(X)  &kp LC(Z)  &trans
+&kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp CAPS                      &kp CAPS       &kp LEFT    &kp UP     &kp DOWN   &kp RIGHT  &kp LC(A)
+&trans     &kp END         &kp PG_DN       &kp PG_UP     &kp HOME         &kp INSERT  &trans    &trans  &kp INSERT     &kp HOME    &kp PG_DN  &kp PG_UP  &kp END    &trans
+                                           &trans        &trans           &trans      &trans    &trans  &kp BACKSPACE  &kp DELETE  &trans
             >;
         };
 
         symbols_layer {
             bindings = <
-&trans  &trans           &trans       &trans    &trans      &trans                         &trans                &trans                 &trans            &trans             &trans     &trans
-&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                    &kp CARET             &kp AMPERSAND          &kp ASTERISK      &kp BACKSLASH      &kp GRAVE  &trans
-&trans  &kp MINUS        &trans       &trans    &trans      &trans                         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL  &trans
-&trans  &trans           &trans       &trans    &trans      &trans       &trans    &trans  &trans                &trans                 &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans     &trans
-                                      &trans    &trans      &trans       &trans    &trans  &trans                &trans                 &trans
+&trans  &trans           &trans         &trans            &trans      &trans                         &trans                &trans                 &trans            &trans             &trans     &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN    &kp HASH          &kp DOLLAR  &kp PERCENT                    &kp CARET             &kp AMPERSAND          &kp ASTERISK      &kp BACKSLASH      &kp GRAVE  &trans
+&trans  &kp MINUS        &trans         &trans            &trans      &trans                         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL  &trans
+&trans  &trans           &kp LESS_THAN  &kp GREATER_THAN  &trans      &trans       &trans    &trans  &trans                &trans                 &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans     &trans
+                                        &trans            &trans      &trans       &trans    &trans  &trans                &trans                 &trans
             >;
         };
 
